@@ -251,3 +251,31 @@ font-family: 'Roboto Condensed', sans-serif; */
   height: 30px;
   background-image: url(../images/arrow-black.svg);
 }
+
+.best {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  text-align: right;
+}
+
+.best__title {
+  max-width: 457px;
+  margin-left: auto;
+  padding-top: 68px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'PT Serif', serif;
+}
+
+.best__link {
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 16px 18px;
+}
