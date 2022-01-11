@@ -305,9 +305,10 @@ font-family: 'Roboto Condensed', sans-serif; */
 .our-managers__title  {
   margin-bottom: 27px;
 }
-
-.our-managers__items {
+.our-managers {
   width: 297px;
+}
+.our-managers__items {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -332,6 +333,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   color: #000;
   line-height: 18px;
   padding: 16px 21px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .blog {
