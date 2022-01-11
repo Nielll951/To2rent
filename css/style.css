@@ -463,6 +463,26 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 
 @media (max-width: 768px) {
-  
+  .header__logo {
+    padding: 40px 0 30px
+  }
+
+  .logo__link-img {
+    max-width: 250px;
+  }
+
+  .menu__list-link {
+    padding: 24px 10px 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu__list {
+    display: block;
+  }
+    
+  .menu__list-item {
+    width: 100%;
+  }
 }
 
