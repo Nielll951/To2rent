@@ -479,10 +479,22 @@ font-family: 'Roboto Condensed', sans-serif; */
 @media (max-width: 600px) {
   .menu__list {
     display: block;
+    border-bottom: 1px solid #c4c4c4;
   }
     
   .menu__list-item {
     width: 100%;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .menu__list-item:first-child,
+  .menu__list-item:last-child {
+    border-left: none;
+    border-right: none;
+  }
+
+  .menu__list-link {
+    padding: 20px 10px;
   }
 }
 
