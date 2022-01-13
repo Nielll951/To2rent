@@ -481,6 +481,7 @@ font-family: 'Roboto Condensed', sans-serif; */
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    margin-right: 0;
   }
 
   .popular__img {
@@ -538,6 +539,11 @@ font-family: 'Roboto Condensed', sans-serif; */
 
   .search__form-input {
     width: 65%;
+  }
+
+  .popular__title {
+    font-size: 36px;
+    line-height: 42px;
   }
 }
 
