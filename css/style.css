@@ -232,7 +232,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .reason__title--icon-2::before {
-  background-image: url(../images/time-icon.png);
+  background-image: url(../images/world-icon.png);
 }
 
 .reason__text {
@@ -387,10 +387,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   text-decoration: none;
 }
 
-.footer {
-  
-}
-
 .footer__top {
   padding: 100px 0;
   background-color: #000;
@@ -470,6 +466,40 @@ font-family: 'Roboto Condensed', sans-serif; */
     width: 400px;
     height: 400px;
   } 
+
+  .best {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 1140px) {
+  .about__inner {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .blog {
+    margin-left: 150px;
+  }
+
+  .reviews {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer__top-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__menu {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .footer__menu-list {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 992px) {
@@ -488,6 +518,74 @@ font-family: 'Roboto Condensed', sans-serif; */
     width: 280px;
     height: 280px;
   } 
+
+  
+  .reason__inner {
+    flex-wrap: wrap;
+  }
+
+  .reason {
+    padding: 20px 0;
+  }
+
+  .reason__item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .reason__title {
+    min-height: 60px;
+    padding-left: 60px;
+  }
+
+  .reason__title::before {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+
+  .best {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 904px) {
+  .about__inner {
+    display: block;
+  }
+
+  .our-managers {
+    margin: 0 auto;
+  }
+
+  .blog {
+    margin: 50px auto;
+    max-width: 420px;
+    width: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .reviews {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  .footer__form {
+    flex-direction: column;
+  }
+
+  .footer__form-label {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .footer__form-input {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -509,6 +607,15 @@ font-family: 'Roboto Condensed', sans-serif; */
 
   .popular__item {
     width: 100%; 
+  }
+
+  .reason__title::before {
+    top: 50%;
+    transform: translateY(-50%);
+  } 
+
+  .best {
+    min-height: 400px;
   }
 }
 
@@ -541,9 +648,33 @@ font-family: 'Roboto Condensed', sans-serif; */
     width: 65%;
   }
 
+  .popular__inner {
+    padding: 80px 0 50px 0;
+  }
   .popular__title {
     font-size: 36px;
     line-height: 42px;
+  }
+
+  .reason__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .best__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .about {
+    padding: 75px 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .blog__link::before {
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
@@ -551,7 +682,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   .search__form-btn {
     width: 100%;
     padding: 13px 23px 13px 36px;
-
   }
 
   .search__form-btn::before {
@@ -562,9 +692,55 @@ font-family: 'Roboto Condensed', sans-serif; */
     width: 100%;
   }
 
+  .about__title {
+    font-size: 35px;
+  }
+
+  .blog__link {
+    padding-left: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  .reason__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .popular__inner {
+    padding: 50px 0 10px 0;
+  }
+
+  .about {
+    padding: 50px 0;
+  }
+
+  .about__title {
+    margin-bottom: 30px;
+  }
+
+  .our-managers {
+    max-width: 297px;
+    width: 100%;
+  }
+
+  .blog {
+    margin: 50px auto 25px auto;
+    max-width: 420px;
+    width: auto;
+  }
+
+  .reviews__img {
+    max-width: 300px;
+    width: 100%;
+  }
+
   /* It's one of the possible option to hide arrows*/
   /* .slick-arrow {
     display: none;
   } */
 }
+
+  
+
 
